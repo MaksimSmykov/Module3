@@ -3,6 +3,8 @@ def print_params(a = 1, b = 'строка', c = True):
 
 values_list = [2, 'string1', 3.45]
 values_dict = {'a': 3, 'b': 'string2', 'c': 1.23}
+print_params(b = 25)
+print_params(c = [1,2,3])
 print_params(*values_list)
 print_params(**values_dict)
 
